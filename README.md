@@ -24,7 +24,7 @@ where:
 
 - \(M\) : Sprung mass (vehicle body)  
 - \(m\) : Unsprung mass (axle)  
-- \(K_1\) : Suspension stiffness  
+- \($$K_1$$\) : Suspension stiffness  
 - \(K_2\) : Tire stiffness  
 - \(D\) : Damping coefficient  
 - \(x_1, x_2\) : Vertical displacement of sprung and unsprung masses  
