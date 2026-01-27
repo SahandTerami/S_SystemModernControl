@@ -12,7 +12,7 @@ In this project, I aimed to control the vehicle's active suspension system using
 
 - Design and simulate a **full-order state observer** to estimate unmeasured states, and validate the estimation by comparing the estimated and actual states.
 
-## 🛠️ Constraints
+## 🛑 Constraints
 - **Settling Time:** The controller should ensure that the system settles within **5 seconds**.  
 - **Overshoot:** The system overshoot must be less than **20%**.  
 - **Steady-State Error:** The steady-state error should be less than **1%** for a unit step input.
@@ -31,7 +31,7 @@ In this project, I aimed to control the vehicle's active suspension system using
 
 - `Run_file.m` : Main script that executes simulations, sweeps controller gains, computes performance metrics, and generates plots for all controllers and observers.
   
-## 🧠 Model Dynamics
+## ⚙️ Model Dynamics
 
 According to the figure, using Newton’s second law, the equations of motion for the two masses can be written as:
 
@@ -59,6 +59,35 @@ where:
 - \($$\dot{x}_1$$, $$\dot{x}_2$$\) : Vertical velocities   
 - \($$y_R$$\) : Road disturbance input  
 - \(u\) : Control force applied to the suspension
+
+## 📊 Results
+
+- **Quarter Car Response:** Shows the displacement and velocity of the sprung and unsprung masses under initial conditions.
+  
+![initial](https://github.com/user-attachments/assets/6d1c3157-8def-4e89-99d2-d6edbaf20ff5)
+
+- **Classical Controllers:** Step responses and performance metrics (settling time, overshoot, steady-state error) for P, PI, and PID controllers.  
+
+P Controller
+
+![initial](https://github.com/user-attachments/assets/12dc5d5e-8694-48e5-a10e-07d43eeb3536)
+
+PI Controller
+
+![initial](https://github.com/user-attachments/assets/0d93498f-44d2-4a77-8b44-8bf664cb01df)
+
+
+PID Controller
+
+![initial](https://github.com/user-attachments/assets/98525cb2-2bcd-431c-a5d9-fd2dcdf59688)
+
+- **State Feedback Control (SVFC):** Step response and performance metrics under designed pole locations.
+  
+![initial](https://github.com/user-attachments/assets/03e47851-4192-4365-83cd-319b4d11b626)
+
+- **Full-Order Observer:** Comparison of estimated vs actual states to validate observer performance.  
+
+![initial](https://github.com/user-attachments/assets/5752ee32-3881-4b7b-9285-9ea0bf2c4bce)
 
 
 
