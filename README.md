@@ -31,7 +31,7 @@ $$
 2. Axle (unsprung) mass:
    
 $$
-m \frac{dv_2}{dt} = -K_1 \big( (x_1 - x_2) + D (\dot{x}_1 - \dot{x}_2) - u - K_2 (x_2- y_R)
+m \frac{dv_2}{dt} = -K_1 \big( (x_1 - x_2)\big)  + D (\dot{x}_1 - \dot{x}_2) - u - K_2 (x_2- y_R)
 $$
 
 where:  
