@@ -17,7 +17,7 @@ In this project, I aimed to control the vehicle's active suspension system using
 - **Overshoot:** The system overshoot must be less than **20%**.  
 - **Steady-State Error:** The steady-state error should be less than **1%** for a unit step input.
 
-  ## 📁 Files Descriptions
+## 📁 Files Descriptions
 
 - `QuarterCarState.m` : Defines the quarter car system dynamics as a state-space model. Computes the derivatives of the states given inputs, road disturbances, and vehicle parameters.
 
