@@ -46,6 +46,20 @@ where:
 - \($$y_R$$\) : Road disturbance input  
 - \(u\) : Control force applied to the suspension
 
+## 📁 Files Descriptions
+
+- `QuarterCarState.m` : Defines the quarter car system dynamics as a state-space model. Computes the derivatives of the states given inputs, road disturbances, and vehicle parameters.
+
+- `P_controller_sweep.m` : Sweeps a range of proportional (P) gains, computes step response metrics (settling time, overshoot, steady-state error) for each, and identifies stable configurations.
+
+- `PI_controller_sweep.m` : Sweeps a range of proportional (Kp) and integral (Ki) gains for a PI controller, computes step response metrics, and identifies stable configurations.
+
+- `PI_optimal.m` : Function to find the optimal PI controller based on settling time and overshoot constraints.
+
+- `PID_optimal_tuner.m` : Tunes a PID controller using MATLAB's PID Tuner and evaluates performance metrics.
+
+- `Run_file.m` : Main script that executes simulations, sweeps controller gains, computes performance metrics, and generates plots for all controllers and observers.
+
 
 
 
