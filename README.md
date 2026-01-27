@@ -52,7 +52,7 @@ where:
 
 - `P_controller_sweep.m` : Sweeps a range of proportional (P) gains, computes step response metrics (settling time, overshoot, steady-state error) for each, and identifies stable configurations.
 
-- `PI_controller_sweep.m` : Sweeps a range of proportional (Kp) and integral (Ki) gains for a PI controller, computes step response metrics, and identifies stable configurations.
+- `PI_controller_sweep.m` : Sweeps a range of proportional ($$K_p$$) and integral ($$K_i$$) gains for a PI controller, computes step response metrics, and identifies stable configurations.
 
 - `PI_optimal.m` : Function to find the optimal PI controller based on settling time and overshoot constraints.
 
