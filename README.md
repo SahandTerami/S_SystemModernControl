@@ -33,15 +33,15 @@ where:
 - \(u\) : Control force applied to the suspension
 
 ## 🎯 Purposes
-- `a:` Model the **quarter car system response** under initial conditions, analyzing the behavior of both the sprung and unsprung masses in terms of displacement and velocity.
+- Model the **quarter car system response** under initial conditions, analyzing the behavior of both the sprung and unsprung masses in terms of displacement and velocity.
 
-- `b:` Compare the performance of **classical controllers (P, PI, PID)** and a **state feedback controller (SVFC)** on the system in terms of settling time, overshoot, and steady-state error.
+- Compare the performance of **classical controllers (P, PI, PID)** and a **state feedback controller (SVFC)** on the system in terms of settling time, overshoot, and steady-state error.
 
-- `c:` Design and simulate a **full-order state observer** to estimate unmeasured states, and validate the estimation by comparing the estimated and actual states.
+- Design and simulate a **full-order state observer** to estimate unmeasured states, and validate the estimation by comparing the estimated and actual states.
 
 ## 🛠️ Constraints
 - **Settling Time:** The controller should ensure that the system settles within **5 seconds**.  
-- **Overshoot:** The system overshoot must be less than **10%**.  
+- **Overshoot:** The system overshoot must be less than **20%**.  
 - **Steady-State Error:** The steady-state error should be less than **1%** for a unit step input.
 
 
