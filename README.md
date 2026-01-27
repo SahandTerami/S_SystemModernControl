@@ -25,11 +25,10 @@ where:
 - \(M\) : Sprung mass (vehicle body)  
 - \(m\) : Unsprung mass (axle)  
 - \($$K_1$$\) : Suspension stiffness  
-- \(K_2\) : Tire stiffness  
+- \($$K_2$$\) : Tire stiffness  
 - \(D\) : Damping coefficient  
-- \(x_1, x_2\) : Vertical displacement of sprung and unsprung masses  
-- \(\dot{x}_1, \dot{x}_2\) : Vertical velocities  
-- \(x_{10}, x_{20}\) : Initial displacements of sprung and unsprung masses  
-- \(y_R\) : Road disturbance input  
+- \($$x_1$$, $$x_2$$\) : Vertical displacement of sprung and unsprung masses  
+- \($$\dot{x}_1$$, $$\dot{x}_2$$\) : Vertical velocities   
+- \($$y_R$$\) : Road disturbance input  
 - \(u\) : Control force applied to the suspension
 
