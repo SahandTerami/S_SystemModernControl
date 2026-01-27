@@ -24,7 +24,7 @@ According to the figure, using Newton’s second law, the equations of motion fo
 1. Vehicle (sprung) mass:
    
 $$
-M \frac{dv_1}{dt} = -K_1 \big( (x_1 - x_2) - D (\dot{x}_1 - \dot{x}_2) + u
+M \frac{dv_1}{dt} = -K_1 \big( (x_1 - x_2)\big) - D (\dot{x}_1 - \dot{x}_2) + u
 $$
 
 
