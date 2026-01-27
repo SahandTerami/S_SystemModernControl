@@ -8,12 +8,14 @@ In this project, I aimed to control the vehicle's active suspension system using
 According to the figure, using Newton’s second law, the equations of motion for the two masses can be written as:
 
 1. Vehicle (sprung) mass:
+   
 $$
 M \frac{dv_1}{dt} = -K_1 \big( (x_1 - x_2) - D (\dot{x}_1 - \dot{x}_2) + u
 $$
 
 
 2. Axle (unsprung) mass:
+   
 $$
 m \frac{dv_2}{dt} = -K_1 \big( (x_1 - x_2) + D (\dot{x}_1 - \dot{x}_2) - u - K_2 (x_2- y_R)
 $$
