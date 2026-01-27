@@ -68,16 +68,16 @@ where:
 
 - **Classical Controllers:** Step responses and performance metrics (settling time, overshoot, steady-state error) for P, PI, and PID controllers.  
 
-**P Controller**
+**P Controller:**
 
 ![initial](https://github.com/user-attachments/assets/12dc5d5e-8694-48e5-a10e-07d43eeb3536)
 
-**PI Controller**
+**PI Controller:**
 
 ![initial](https://github.com/user-attachments/assets/0d93498f-44d2-4a77-8b44-8bf664cb01df)
 
 
-**PID Controller**
+**PID Controller:**
 
 ![initial](https://github.com/user-attachments/assets/98525cb2-2bcd-431c-a5d9-fd2dcdf59688)
 
