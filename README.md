@@ -8,6 +8,11 @@ In this project, I aimed to control the vehicle's active suspension system using
 According to the figure, using Newton’s second law, the equations of motion for the two masses can be written as:
 
 $$
-M \frac{dv_1}{dt} = -K_1 \big( (x_1 - x_2) - (x_{10} - x_{20}) \big) - D (\dot{x}_1 - \dot{x}_2) + u
+M \frac{dv_1}{dt} = -K_1 \big( (x_1 - x_2) - D (\dot{x}_1 - \dot{x}_2) + u
 $$
+
+$$
+m \frac{dv_2}{dt} = -K_1 \big( (x_1 - x_2) + D (\dot{x}_1 - \dot{x}_2) - u - K_2 (x_2 - x_{20} - y_R)
+$$
+
 
