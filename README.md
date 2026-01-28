@@ -6,6 +6,14 @@
 - [🛑 Constraints](#-constraints)
 - [📁 Files Descriptions](#-files-descriptions)
 - [⚙️ Model Dynamics](#%EF%B8%8F-model-dynamics)
+- [📊 Results](#-results)
+  - [⚡ Quarter Car Response](#-quarter-car-response)
+  - [🎛️ Classical Controllers](#%EF%B8%8F-classical-controllers)
+    - [🔴 P Controller](#-p-controller)
+    - [🟢 PI Controller](#-pi-controller)
+    - [🔵 PID Controller](#-pid-controller)
+  - [🏎️ State Feedback Control (SVFC)](#%EF%B8%8F-state-feedback-control-svfc)
+  - [👁️ Full-Order Observer](#%EF%B8%8F-full-order-observer)
 
 
 ## 📖 Overview
