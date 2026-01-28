@@ -7,14 +7,13 @@
 - [📁 Files Descriptions](#-files-descriptions)
 - [⚙️ Model Dynamics](#-model-dynamics)
 - [📊 Results](#results)
-  - [⚡ Quarter Car Response](#quarter-car-response)
-  - [🎛️ Classical Controllers](#classical-controllers)
-    - [🔴 P Controller](#p-controller)
-    - [🟢 PI Controller](#pi-controller)
-    - [🔵 PID Controller](#pid-controller)
-  - [🏎️ State Feedback Control (SVFC)](#state-feedback-control-svfc)
-  - [👁️ Full-Order Observer](#full-order-observer)
-
+ [Quarter Car Response](#quarter-car-response)
+  - [Classical Controllers](#classical-controllers)
+    - [P Controller](#p-controller)
+    - [PI Controller](#pi-controller)
+    - [PID Controller](#pid-controller)
+  - [State Feedback Control SVFC](#state-feedback-control-svfc)
+  - [Full-Order Observer](#full-order-observer)
 ## 📖 Overview
 In this project, I aimed to control the vehicle's active suspension system using a quarter-car model. The project includes the design and analysis of classical controllers (P, PI, PID), state feedback control (SVFC), and full-order state observers. Step responses, settling time, overshoot, and steady-state error are analyzed for each controller. The system is illustrated in the figure below.
 
