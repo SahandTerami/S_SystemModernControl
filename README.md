@@ -5,7 +5,7 @@
 - [🎯 Purposes](#-purposes)
 - [🛑 Constraints](#-constraints)
 - [📁 Files Descriptions](#-files-descriptions)
-- [⚙️ Model Dynamics](#model-dynamics)
+- [⚙️ Model Dynamics](#-model-dynamics)
 
 
 ## 📖 Overview
