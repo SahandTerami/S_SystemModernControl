@@ -5,7 +5,8 @@
 - [🎯 Purposes](#-purposes)
 - [🛑 Constraints](#-constraints)
 - [📁 Files Descriptions](#-files-descriptions)
-- [⚙️ Model Dynamics](#-model-dynamics)
+- [⚙️ Model Dynamics](#model-dynamics)
+
 
 ## 📖 Overview
 In this project, I aimed to control the vehicle's active suspension system using a quarter-car model. The project includes the design and analysis of classical controllers (P, PI, PID), state feedback control (SVFC), and full-order state observers. Step responses, settling time, overshoot, and steady-state error are analyzed for each controller. The system is illustrated in the figure below.
