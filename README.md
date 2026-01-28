@@ -7,7 +7,7 @@
 - [📁 Files Descriptions](#-files-descriptions)
 - [⚙️ Model Dynamics](#-model-dynamics)
 - [📊 Results](#results)
-  -[Quarter Car Response](#quarter-car-response)
+  - [Quarter Car Response](#quarter-car-response)
   - [Classical Controllers](#classical-controllers)
     - [P Controller](#p-controller)
     - [PI Controller](#pi-controller)
