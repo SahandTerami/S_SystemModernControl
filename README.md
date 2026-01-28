@@ -1,16 +1,17 @@
 # Control of Active Suspension System of Vehicle
 
-## 📖 Overview
-In this project, I aimed to control the vehicle's active suspension system using a quarter-car model. The project includes the design and analysis of classical controllers (P, PI, PID), state feedback control (SVFC), and full-order state observers. Step responses, settling time, overshoot, and steady-state error are analyzed for each controller. The system is illustrated in the figure below.
-
-<img width="479" height="355" alt="image" src="https://github.com/user-attachments/assets/3fa22315-0fc5-485a-88cc-6a213d002a78" />
-
   ## 📑 Table of Contents
+- [📖 Overview](#-Overview)
 - [🎯 Purposes](#-purposes)
 - [🛑 Constraints](#-constraints)
 - [📁 Files Descriptions](#-files-descriptions)
 - [⚙️ Model Dynamics](#-model-dynamics)
 - [📊 Results](#-results)
+- 
+## 📖 Overview
+In this project, I aimed to control the vehicle's active suspension system using a quarter-car model. The project includes the design and analysis of classical controllers (P, PI, PID), state feedback control (SVFC), and full-order state observers. Step responses, settling time, overshoot, and steady-state error are analyzed for each controller. The system is illustrated in the figure below.
+
+<img width="479" height="355" alt="image" src="https://github.com/user-attachments/assets/3fa22315-0fc5-485a-88cc-6a213d002a78" />
   
 ## 🎯 Purposes
 - Model the **quarter car system response** under initial conditions, analyzing the behavior of both the sprung and unsprung masses in terms of displacement and velocity.
@@ -69,11 +70,11 @@ where:
 
 ## 📊 Results
 
-- **Quarter Car Response:** Shows the displacement and velocity of the sprung and unsprung masses under initial conditions.
+### **Quarter Car Response:** Shows the displacement and velocity of the sprung and unsprung masses under initial conditions.
   
 ![initial](https://github.com/user-attachments/assets/6d1c3157-8def-4e89-99d2-d6edbaf20ff5)
 
-- **Classical Controllers:** Step responses and performance metrics (settling time, overshoot, steady-state error) for P, PI, and PID controllers.  
+### **Classical Controllers:** Step responses and performance metrics (settling time, overshoot, steady-state error) for P, PI, and PID controllers.  
 
 **P Controller:**
 
@@ -88,11 +89,11 @@ where:
 
 ![initial](https://github.com/user-attachments/assets/98525cb2-2bcd-431c-a5d9-fd2dcdf59688)
 
-- **State Feedback Control (SVFC):** Step response and performance metrics under designed pole locations.
+### **State Feedback Control (SVFC):** Step response and performance metrics under designed pole locations.
   
 ![initial](https://github.com/user-attachments/assets/03e47851-4192-4365-83cd-319b4d11b626)
 
-- **Full-Order Observer:** Comparison of estimated vs actual states to validate observer performance.  
+### **Full-Order Observer:** Comparison of estimated vs actual states to validate observer performance.  
 
 ![initial](https://github.com/user-attachments/assets/5752ee32-3881-4b7b-9285-9ea0bf2c4bce)
 
